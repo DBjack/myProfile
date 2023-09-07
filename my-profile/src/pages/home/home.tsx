@@ -1,6 +1,6 @@
 import "./home.css";
 import ReactFullpage from "@fullpage/react-fullpage";
-
+import Navbar from "../../layout/navBar/navBar";
 function MySection(props) {
   return (
     <div className="section">
@@ -18,6 +18,7 @@ function Home() {
 
   return (
     <div>
+      <Navbar></Navbar>
       <div style={{ position: "fixed", zIndex: 100, color: "#fff" }}>
         <a href="#firstPage">首页</a>
         <a href="#secondPage">作品</a>
